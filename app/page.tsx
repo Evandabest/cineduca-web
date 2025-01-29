@@ -38,7 +38,7 @@ export default function Home() {
             <CardHeader className="space-y-2">
               <CardTitle className="text-xl sm:text-2xl text-rose-900">AI-Generated Assessments</CardTitle>
               <CardDescription className="text-sm sm:text-base text-gray-600">
-                Save time with automatic question generation tailored to your students' level
+                Save time with automatic question generation tailored to your students&apos; level
               </CardDescription>
             </CardHeader>
           </Card>
