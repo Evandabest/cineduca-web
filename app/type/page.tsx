@@ -1,8 +1,7 @@
 "use client"
 
-import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card"
+import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
 import { updateUserType } from "./actions"
 import { useEffect } from "react"
 import { createClient } from "@/utils/supabase/client"
@@ -20,7 +19,7 @@ export default function UserTypePage() {
             }
         }
         checkUser()
-    }),[supabase]
+    },[supabase, Router])
 
   return (
     <div className="min-h-screen bg-orange-50 py-12">

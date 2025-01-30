@@ -10,7 +10,7 @@ export async function signup(formData: FormData): Promise<void> {
   
     const email = formData.get('email') as string
     const password = formData.get('password') as string
-    const type = formData.get('type') as string
+    
   
     const data = {
       email,
