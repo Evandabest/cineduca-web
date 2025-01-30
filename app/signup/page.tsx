@@ -35,21 +35,7 @@ export default function SignUpPage() {
                 className="border-orange-100 focus:ring-rose-600"
               />
             </div>
-            <div className="space-y-2">
-              <Label htmlFor="access">Account Type</Label>
-              <select
-                id="access"
-                name="access"
-                required
-                defaultValue=""
-                className="w-full rounded-md border border-orange-100 bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-rose-600"
-              >
-                <option value="" disabled>Select your role</option>
-                <option value="filmmaker">Filmmaker</option>
-                <option value="teacher">Teacher</option>
-                <option value="student">Student</option>
-              </select>
-            </div>
+            
             <Button 
               formAction={signup}
               className="w-full bg-rose-600 hover:bg-rose-700 text-white"
