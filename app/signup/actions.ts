@@ -24,5 +24,5 @@ export async function signup(formData: FormData): Promise<void> {
     }
 
     revalidatePath('/', 'layout')
-    redirect('/')
+    redirect('/home')
 }
